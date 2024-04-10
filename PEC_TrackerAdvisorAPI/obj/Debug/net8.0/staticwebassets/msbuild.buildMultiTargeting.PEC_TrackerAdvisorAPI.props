@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PEC_TrackerAdvisorAPI.props" />
+</Project>

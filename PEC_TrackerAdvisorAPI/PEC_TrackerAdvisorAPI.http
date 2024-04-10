@@ -1,0 +1,6 @@
+@PEC_TrackerAdvisorAPI_HostAddress = http://localhost:5025
+
+GET {{PEC_TrackerAdvisorAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEC_TrackerAdvisorAPI", "PEC_TrackerAdvisorAPI\PEC_TrackerAdvisorAPI.csproj", "{8E0AB48A-3956-4029-8045-7DF540DDA6B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E0AB48A-3956-4029-8045-7DF540DDA6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0AB48A-3956-4029-8045-7DF540DDA6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0AB48A-3956-4029-8045-7DF540DDA6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0AB48A-3956-4029-8045-7DF540DDA6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E82FFE67-BC15-4F22-9054-88C6523079A0}
+	EndGlobalSection
+EndGlobal
