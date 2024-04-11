@@ -139,3 +139,4 @@ C:\Users\popescu.cristian\Desktop\Lucrare-Licenta\PEC_Tracker_Advisor\PEC_Tracke
 C:\Users\popescu.cristian\Desktop\Lucrare-Licenta\PEC_Tracker_Advisor\PEC_TrackerAdvisorAPI\PEC_TrackerAdvisorAPI\bin\Debug\net8.0\MimeKit.dll
 C:\Users\popescu.cristian\Desktop\Lucrare-Licenta\PEC_Tracker_Advisor\PEC_TrackerAdvisorAPI\PEC_TrackerAdvisorAPI\bin\Debug\net8.0\NETCore.MailKit.dll
 C:\Users\popescu.cristian\Desktop\Lucrare-Licenta\PEC_Tracker_Advisor\PEC_TrackerAdvisorAPI\PEC_TrackerAdvisorAPI\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\popescu.cristian\Desktop\Lucrare-Licenta\PEC_Tracker_Advisor\PEC_TrackerAdvisorAPI\PEC_TrackerAdvisorAPI\obj\Debug\net8.0\PEC_TrackerAdvisorAPI.sourcelink.json

@@ -93,7 +93,6 @@ namespace PEC_TrackerAdvisorAPI.Controllers
             });
         }
 
-        [Authorize]
         [HttpGet]
         public async Task<ActionResult<User>> GetAllUsersAsync()
         {

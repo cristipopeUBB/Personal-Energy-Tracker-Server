@@ -10,6 +10,7 @@ namespace PEC_TrackerAdvisorAPI.Models
         public int UserId { get; set; } // To whom the device is assigned
         public string? Name { get; set; }
         public int Consumption { get; set; }
+        public int HoursUsed { get; set; }
         public DeviceUsage Usage { get; set; }
     }
 }

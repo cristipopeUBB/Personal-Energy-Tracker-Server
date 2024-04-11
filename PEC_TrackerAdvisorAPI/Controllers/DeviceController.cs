@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PEC_TrackerAdvisorAPI.Context;
 using PEC_TrackerAdvisorAPI.Models;
+using PEC_TrackerAdvisorAPI.Utilities;
 
 namespace PEC_TrackerAdvisorAPI.Controllers
 {
@@ -21,6 +22,7 @@ namespace PEC_TrackerAdvisorAPI.Controllers
         {
             try
             {
+                device.Usage = DeviceUtils.GetDeviceUsage(device.HoursUsed);
                 await _authContext.Devices.AddAsync(device);
                 await _authContext.SaveChangesAsync();
                 return Ok();
