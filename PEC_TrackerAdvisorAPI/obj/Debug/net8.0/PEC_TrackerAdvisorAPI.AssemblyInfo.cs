@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PEC_TrackerAdvisorAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04450b59f6bd4ce18240c9ec40a67a9d67af5214")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa807b66706091f7cdc444a9bc087ad3147009aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("PEC_TrackerAdvisorAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PEC_TrackerAdvisorAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

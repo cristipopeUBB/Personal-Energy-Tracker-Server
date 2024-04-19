@@ -6,11 +6,11 @@ namespace PEC_TrackerAdvisorAPI.Utilities
     {
         public static DeviceUsage GetDeviceUsage(int hoursUsed)
         {
-            if(hoursUsed < 2)
+            if(hoursUsed < 3)
             {
                 return DeviceUsage.Low;
             }
-            else if(hoursUsed >= 2 && hoursUsed < 4)
+            else if(hoursUsed >= 3 && hoursUsed < 6)
             {
                 return DeviceUsage.Medium;
             }

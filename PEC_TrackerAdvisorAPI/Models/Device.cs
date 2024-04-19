@@ -12,5 +12,6 @@ namespace PEC_TrackerAdvisorAPI.Models
         public int Consumption { get; set; }
         public int HoursUsed { get; set; }
         public DeviceUsage Usage { get; set; }
+        public DateTime DateAdded { get; set; } = DateTime.Now;
     }
 }

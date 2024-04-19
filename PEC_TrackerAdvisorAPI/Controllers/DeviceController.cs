@@ -24,6 +24,7 @@ namespace PEC_TrackerAdvisorAPI.Controllers
             try
             {
                 device.Usage = DeviceUtils.GetDeviceUsage(device.HoursUsed);
+                device.DateAdded = DateTime.Now;
                 await _authContext.Devices.AddAsync(device);
                 await _authContext.SaveChangesAsync();
                 return Ok();
@@ -40,7 +41,7 @@ namespace PEC_TrackerAdvisorAPI.Controllers
         {
             try
             {
-                var devices = await _authContext.Devices.Where(d => d.UserId == userId).ToListAsync();
+                var devices = await _authContext.Devices.Where(d => d.UserId == userId).OrderByDescending(d => d.DateAdded).ToListAsync();
                 return Ok(devices);
             }
             catch (Exception ex)
